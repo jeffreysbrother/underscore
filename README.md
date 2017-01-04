@@ -57,8 +57,30 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 *Arrays and Objects*
 
-`_.first()` and `_.last()` First or last element of the array (returns one value)
+`_.first()` and `_.last()` First or last element of the array (returns one value).
 
 `_.initial()` and `_.rest()` Returns arrays that are subsets of the initial array: initial elements minus **x** number of elements ... and ... the last elements minus **x** number of elements off the front of the array.
+
+*Array operations*
+
+`_.without()` remove unwanted values from an array.
+
+`_.union()` join two arrays together.
+
+`_.intersection()` opposite of union. Returns common values from two arrays.
+
+`_.difference()` returns values not present in the *other* array.
+
+*Object operations*
+
+`_.keys()` retrieve the keys of an object.
+
+`_.values()` retrieve the values of an object.
+
+`_.pick()` can request multiple properties by passing in desired keys.
+
+`_.omit()` filter out multiple properties we don't need.
+
+`_.size()`
 
 `_.size()`
