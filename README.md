@@ -21,9 +21,9 @@ var elem = _.find(students, searchStudents);
 elem = _.findWhere(students, {school : "Thoreau", grade: 11});
 ```
 
-`_.size()`
+`_.contains()` searches a list of values for a particular value.
 
-`_.size()`
+`_.pluck()` retrieves all of the values for a given property.
 
 `_.size()`
 
