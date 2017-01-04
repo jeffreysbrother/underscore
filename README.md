@@ -43,9 +43,9 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 *Sorting and grouping*
 
-`_.sortBy()`
+`_.sortBy()` returns a list sorted according to some criteria.
 
-`_.size()`
+`_.groupBy()` returns an **object** (associative array) where the keys represent the metric by which the grouping occurs.
 
 `_.size()`
 
