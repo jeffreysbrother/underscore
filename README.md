@@ -81,6 +81,22 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.omit()` filter out multiple properties we don't need.
 
+`_.extend()` add new properties to existing objects.
+
+`_.defaults()` assign default values to an object.
+
+`_.clone()` make a shallow copy of an object (values of objects that are arrays or objects themselves are copied by reference ... not duplicated)
+
 `_.size()`
+
+`_.extend()`
+
+`_.size()`
+
+`_.extend()`
+
+`_.size()`
+
+`_.extend()`
 
 `_.size()`
