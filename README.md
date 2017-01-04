@@ -49,9 +49,11 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.countBy()` returns an associative array arranged by the number of counts in each group.
 
-`_.size()`
+*Manipulation*
 
-`_.size()`
+`_.shuffle()` randomizes contents of the list. Uses the Fisher-Yates shuffle.
+
+`_.map()` takes a data set and produces a new array based upon each item in the list.
 
 `_.size()`
 
