@@ -53,9 +53,11 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.shuffle()` randomizes contents of the list. Uses the Fisher-Yates shuffle.
 
-`_.map()` takes a data set and produces a new array based upon each item in the list.
+`_.map()` takes a data set and produces a new array based upon each item in the list. Can map a numerical grade to a letter grade, for example.
 
-`_.size()`
+*Arrays and Objects*
+
+`_.first()` and `_.last()` First or last element of the structure.
 
 `_.size()`
 
