@@ -37,4 +37,20 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.every()` ensure that **every** criteria has been met.
 
-`_.size()` at least one items passes a criteria set.
+`_.size()` at least one item passes a criteria set.
+
+`_.size()`
+
+`_.size()`
+
+`_.size()`
+
+`_.size()`
+
+`_.size()`
+
+`_.size()`
+
+`_.size()`
+
+`_.size()`
