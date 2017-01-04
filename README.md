@@ -15,7 +15,11 @@ function searchStudents(item) {
 var elem = _.find(students, searchStudents);
 ```
 
-`_.size()`
+`_.findWhere()` accepts an object with properties/values we wish to match. Example:
+
+```js
+elem = _.findWhere(students, {school : "Thoreau", grade: 11});
+```
 
 `_.size()`
 
