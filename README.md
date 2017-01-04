@@ -25,7 +25,11 @@ elem = _.findWhere(students, {school : "Thoreau", grade: 11});
 
 `_.pluck()` retrieves all of the values for a given property.
 
-`_.size()`
+`_.filter()` accepts the set of data and a callback function that narrows down the list by defining a set of criteria that each object must pass in order to be included in the resulting list that is returned. Example:
+
+```js
+
+```
 
 `_.size()`
 
