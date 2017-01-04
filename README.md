@@ -91,9 +91,17 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.random()` generate a random number (not between 0 and 1, like JavaScript's built-in function). Can provide one argument *x* for a value between zero and *x* (inclusive), or two arguments for a value between that range (also inclusive).
 
-`_.size()`
+`_.times()` short-hand way of executing a counter loop (like a for loop).
 
-`_.extend()`
+`_.mixin()` use this to extend Underscore. Accepts an object where the keys are names of functions, and the value of each key is the function that carries out whatever the hell you want it to do. Example of creating a new `_.capitalize()` function:
+
+```js
+_.mixin({
+      capitalize: function(string) {
+          return string.charAt(0).toUpperCase() + string.substring(1).toLowerCase();
+      }
+});
+```
 
 `_.size()`
 
