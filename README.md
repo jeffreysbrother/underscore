@@ -1,6 +1,6 @@
 ###Underscore.js
 
-*functions for filtering data; derives smaller result sets from a large initial set of data.*
+**functions for filtering data; derives smaller result sets from a large initial set of data.**
 
 `_.size()` gets the size of an array, for example.
 
@@ -41,7 +41,7 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.size()` at least one item passes a criteria set.
 
-*Sorting and grouping*
+**Sorting and grouping**
 
 `_.sortBy()` returns a list sorted according to some criteria.
 
@@ -49,19 +49,19 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.countBy()` returns an associative array arranged by the number of counts in each group.
 
-*Manipulation*
+**Manipulation**
 
 `_.shuffle()` randomizes contents of the list. Uses the Fisher-Yates shuffle.
 
 `_.map()` takes a data set and produces a new array based upon each item in the list. Can map a numerical grade to a letter grade, for example.
 
-*Arrays and Objects*
+**Arrays and Objects**
 
 `_.first()` and `_.last()` First or last element of the array (returns one value).
 
 `_.initial()` and `_.rest()` Returns arrays that are subsets of the initial array: initial elements minus **x** number of elements ... and ... the last elements minus **x** number of elements off the front of the array.
 
-*Array operations*
+**Array operations**
 
 `_.without()` remove unwanted values from an array.
 
@@ -71,7 +71,7 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.difference()` returns values not present in the *other* array.
 
-*Object operations*
+**Object operations**
 
 `_.keys()` retrieve the keys of an object.
 
@@ -103,7 +103,7 @@ _.mixin({
 });
 ```
 
-*Function Features*
+**Function Features**
 
 `_.once()` prevent a function from executing more than once.
 
@@ -111,6 +111,6 @@ _.mixin({
 
 `_.bind()` Binds a function to a given object. This can be done on the fly (can be changed at runtime).
 
-*Underscore Templates*
+**Underscore Templates**
 
 `_.template()` Create templates. LOL this seems too complicated.
