@@ -47,7 +47,7 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 `_.groupBy()` returns an **object** (associative array) where the keys represent the metric by which the grouping occurs.
 
-`_.size()`
+`_.countBy()` returns an associative array arranged by the number of counts in each group.
 
 `_.size()`
 
