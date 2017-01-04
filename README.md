@@ -103,6 +103,24 @@ _.mixin({
 });
 ```
 
+*Function Features*
+
+`_.once()` prevent a function from executing more than once.
+
+`_.throttle()` limit the # of times a function is called when it is executed repeatedly. Pass in a value in milliseconds.
+
+`_.bind()` Binds a function to a given object. 
+
+`_.extend()`
+
+`_.size()`
+
+`_.extend()`
+
+`_.size()`
+
+`_.extend()`
+
 `_.size()`
 
 `_.extend()`
