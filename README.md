@@ -43,7 +43,7 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 
 *Sorting and grouping*
 
-`_.size()`
+`_.sortBy()`
 
 `_.size()`
 
