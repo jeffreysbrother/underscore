@@ -25,13 +25,13 @@ elem = _.findWhere(students, {school : "Thoreau", grade: 11});
 
 `_.pluck()` retrieves all of the values for a given property.
 
-`_.filter()` accepts the set of data and a callback function that narrows down the list by defining a set of criteria that each object must pass in order to be included in the resulting list that is returned. Example:
+`_.filter()` accepts the set of data and a callback function that narrows down the list by defining a set of criteria that each object must pass in order to be included in the resulting list that is returned.
+
+`_.where()` accepts a dataset and selects only those items that match the properties defined in the object passed to it. Example:
 
 ```js
-
+var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 ```
-
-`_.size()`
 
 `_.size()`
 
