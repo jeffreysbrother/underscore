@@ -33,6 +33,8 @@ elem = _.findWhere(students, {school : "Thoreau", grade: 11});
 var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 ```
 
-`_.size()`
+`_.reject()` opposite of `_.filter()`. Rejects items that match a set of criteria.
 
-`_.size()`
+`_.every()` ensure that **every** criteria has been met.
+
+`_.size()` at least one items passes a criteria set.
