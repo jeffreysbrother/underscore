@@ -109,20 +109,8 @@ _.mixin({
 
 `_.throttle()` limit the # of times a function is called when it is executed repeatedly. Pass in a value in milliseconds.
 
-`_.bind()` Binds a function to a given object. 
+`_.bind()` Binds a function to a given object. This can be done on the fly (can be changed at runtime).
 
-`_.extend()`
+*Underscore Templates*
 
-`_.size()`
-
-`_.extend()`
-
-`_.size()`
-
-`_.extend()`
-
-`_.size()`
-
-`_.extend()`
-
-`_.size()`
+`_.template()` Create templates. LOL this seems too complicated.
