@@ -1,5 +1,7 @@
 ###Underscore.js
 
+*functions for filtering data; derives smaller result sets from a large initial set of data.*
+
 `_.size()` gets the size of an array, for example.
 
 `_.each()` accepts an object and a callback function that runs every time it encounters an element in that object.
@@ -38,6 +40,8 @@ var result = _.where(students, {"school" : "Thoreau", "grade" : 10});
 `_.every()` ensure that **every** criteria has been met.
 
 `_.size()` at least one item passes a criteria set.
+
+*Sorting and grouping*
 
 `_.size()`
 
